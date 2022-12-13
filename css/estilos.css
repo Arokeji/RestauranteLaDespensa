@@ -1,0 +1,318 @@
+﻿		html
+		{
+			height: 100%;
+		}
+		
+		body{
+			background-color:#000;
+			/*overflow: auto;*/
+			height: 100%;
+			}
+		a{
+			color:#FA741B;
+			text-decoration: none;
+			outline: none;
+		}
+		
+		img{
+			border:none;
+		}
+
+		#page{/*CONTENEDOR DE TODO*/
+			position: relative;
+			min-height: 100%;
+		}
+		
+		* html #page
+		{
+			height: 100%;
+		}
+
+		/*Platos del restaurante*/
+		dt{
+		  position:relative;
+		  background:url(../imagenes/punto.png) bottom left repeat-x;
+		  color:#fff; font:11pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%;
+		}
+		dt strong{
+		  color:#fff; font:11pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%;
+		  padding:0.1em 0.3em 0.2em 0;
+		}
+		dt span{
+		  position:absolute;
+		  right:0;
+		  padding:0.1em 0 0.2em 0.3em;
+		  color:#fff; font:11pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%;
+		}
+		
+		dd{
+		  padding-left: 20px;
+		  color:#F5C123; font:8pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%;	
+		}
+		
+		.titulo_menu{
+			text-align: center;
+			width: 100%;
+			font:15pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%;
+			color:#F5C123;
+		}
+		
+		#menu_barra{ /*CONTENEDOR DEL MENU*/
+			position: relative;
+			top: 0px;
+			width:100%; 
+			height: 41px;
+			background: url(../imagenes/back-orange.png);
+		}
+		
+		#contenido_menu{
+			width: 800px;
+			margin: 0px auto;
+			text-align: justify;
+			font: 12pt "Helvetica Neue", "Helvetica", Arial, sans-serif;
+		}
+		
+		#logo_menu{
+			position: absolute;
+			float: left;
+			top: 39px;
+			z-index: 99;
+		}
+		
+		#listado-magic-menu{
+			position: relative;
+			left: 300px;
+			top: 5px;
+			width: 390px;
+		}
+		
+		#linea_central{ /*CONTENEDOR DE LA LINEA CENTRAL*/
+			position: relative;
+			/* background-color:rgba(0,0,0,0.65); 
+			filter: alpha(opacity=80); */
+			background: url(../imagenes/back-black.png);
+			/*top: 123px;*/
+			top: 90px;
+			width:100%;
+			margin:0px auto;
+		}
+		
+		#contenido_central{
+			position: relative;
+			width: 800px;
+			margin: 0px auto;
+			text-align: justify;
+			padding: 30px;
+		}
+		
+		#vacio_central{ /* Deja hueco para que entre la gran D */
+			position: relative;
+			float: left;
+			top: 0px;
+			left: 0px;
+			width: 308px;;
+			height: 180px;
+		}
+			
+		#vacio_margen{/*vacio que separa el bottom de la linea central y no está dentro de ningún contenedor*/
+			position: relative;
+			height: 400px;
+			z-index: -50;
+		}	
+		
+		#barra_pie{ /*CONTENEDOR DEL FOOTER*/
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+			z-index: 99;
+		}
+		
+		#redes_sociales{
+			position: relative;
+			background-color: #333;
+			background:url(../imagenes/social.png) repeat-x;		
+			height: 168px;
+			width: 100%;	
+		}
+		
+		#brillo_sociales{
+			position: relative;
+			background: url(../imagenes/brillo.png) repeat-x;
+			width: 800px;
+			height: 100%;
+			margin: 0px auto;
+		}
+		
+		#central_sociales{
+			position: relative;
+			background:url(../imagenes/social.png) repeat-x;
+			text-align: left;
+			width: 798px;
+			height: 100%;
+			margin: 0px auto;
+		}
+		
+		#logo_facebook{
+			position: relative;
+			margin: 10px;
+			float: left;
+			top: 0px;
+			left: 0px;
+		}
+		
+		#contenedor_twitter{
+			position:relative;
+			z-index:100;
+			bottom: 25px;
+			width: 1000px;
+			height: 36px;
+			margin: 0px auto;
+		}
+		
+		
+		#twitter_tenedor{
+			position: absolute;
+			left: 0px;
+			float: left;
+		}
+		
+		
+		#twitter_box{
+			position:relative;
+			padding-left: 85px;
+			top: 28px;
+			float: left;
+			margin: 0px auto;
+		}
+		
+		/* Scroller Box */
+		#scroller_container {
+		 position: absolute;
+		 left: 0px;
+		 width: 100%;
+		 bottom: 0px;
+		 height: 22px;
+		 overflow: hidden;
+		}
+		
+		#scroller {
+		 white-space: nowrap;
+		}
+		/* Scoller Box */
+     
+
+			
+		p{ color:#fff; font:11pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%; }
+		h2{ color:#fff; font:11pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%; text-align:center; }
+		h1{ color:#fff; font:19pt "Helvetica Neue", "Helvetica", Arial, sans-serif; text-shadow: #000 0px 2px 0px; line-height:160%; }
+		
+		/*TWITTER*/
+
+		.tweet, .query {
+			position: relative;
+			float: left;
+			font: 11px Arial, Helvetica, sans-serif;
+			color: #000000;
+			background:url(../imagenes/box_02.png) repeat-x;
+		}
+		  
+		.tweet .tweet_list, .query .tweet_list {
+			-webkit-border-radius: .5em;
+			list-style-type: none;
+			margin: 0;
+			padding: 0; 
+		}
+		.tweet .tweet_list .awesome, .tweet .tweet_list .epic, .query .tweet_list .awesome, .query .tweet_list .epic {
+			text-transform: uppercase;
+		}
+		   
+		.tweet .tweet_list li, .query .tweet_list li {
+			overflow-y: auto;
+			overflow-x: hidden;
+			padding: .5em;
+		}
+		   
+		.tweet .tweet_list li a, .query .tweet_list li a {
+			color: #990000; 
+		}
+			
+		.tweet .tweet_list .tweet_even, .query .tweet_list .tweet_even { 
+		}
+		
+		.tweet .tweet_list .tweet_avatar, .query .tweet_list .tweet_avatar {
+			padding-right: .5em;
+			float: left; 
+		}
+		.tweet .tweet_list .tweet_avatar img, .query .tweet_list .tweet_avatar img {
+			vertical-align: middle; 
+		}
+		/*/TWITTER*/
+				
+				
+		#opiniones_detalles_izq{
+			position: relative;
+			float: left;
+			color: #FFF;
+			font:9pt "Helvetica Neue", "Helvetica", Arial, sans-serif; 
+			text-shadow: #000 0px 2px 0px;
+			padding-left: 15px;
+		}
+		
+		#opiniones_detalles_der{
+			position: relative;
+			float: right;
+			color: #FFF; 
+			font:9pt "Helvetica Neue", "Helvetica", Arial, sans-serif; 
+			text-shadow: #000 0px 2px 0px;
+			padding-right: 15px;
+		}
+				
+		/* Opiniones de los usuarios */
+		#testimonials {width: 750px; list-style-type: none;}
+		#testimonials .slide {}
+		blockquote {color: #CCC; font:10pt "Helvetica Neue", "Helvetica", Arial, sans-serif; font-style: italic; text-shadow: #000 0px 2px 0px;}
+		
+		
+		/* Slider para envío de opiniones*/
+		.track {
+			-moz-user-select: none;
+			-webkit-user-select: none;
+		}
+		
+		.track-center{
+			background-image: url(../imagenes/track.png);
+			height: 45px;
+			margin: 0px 10px;
+		}
+		
+		.track-left{
+			width: 10px;
+			height: 45px;
+			float: left;
+			background-image: url(../imagenes/trackleft.png);
+		}
+		
+		.track-right{
+			width: 10px;
+			height: 45px;
+			float: right;
+			background-image: url(../imagenes/trackright.png);
+		}
+		
+		.track-message{
+			color:white;
+			font-family:Arial,Helvetica,sans-serif;
+			font-size:24px;
+			padding:9px 18px;
+			text-align:right;
+		}
+		
+		.handle{
+			background-image: url(../imagenes/handles.png);
+			bottom:45px;
+			cursor:pointer;
+			height:39px;
+			margin:3px 4px;
+			position:relative;
+			width:76px;
+		}
